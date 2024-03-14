@@ -1,4 +1,4 @@
-# React App : React App : Login with Authentication
+# React App : Login with Authentication
 
 The project is a client web application built with React.js that provides user login functionalities and diffrent pages management.
 
