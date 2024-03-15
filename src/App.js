@@ -1,22 +1,13 @@
 import React from "react";
 import './App.css';
-// import ThemeProvider from './theme';
-import { SnackbarProvider } from 'notistack'; // Import SnackbarProvider
+import { SnackbarProvider } from 'notistack';
 import Router from './routes';
 
 function App() {
-  return (
-    // <ThemeProvider>
-    <SnackbarProvider
-      // maxSnack={3}
-      anchorOrigin={{
-        vertical: 'top',
-        horizontal: 'right',
-      }}
-    >
+  return (    
+    <SnackbarProvider anchorOrigin={{ vertical: 'top', horizontal: 'right' }}>
       <Router />
-    </SnackbarProvider>
-    // </ThemeProvider>
+    </SnackbarProvider>    
   );
 }
 
